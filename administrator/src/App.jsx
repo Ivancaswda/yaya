@@ -7,7 +7,7 @@ import Sidebar from "./components/Sidebar.jsx";
 import {useEffect, useState} from "react";
 import Login from "./components/Login.jsx";
 import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css'
+
 import MainPage from "./pages/MainPage.jsx";
 export const backendUrl = import.meta.env.VITE_BACKEND_URL
 
