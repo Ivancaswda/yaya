@@ -10,7 +10,7 @@ import {useContext, useEffect, useState} from "react";
 import {ShopContext} from "./context/ShopContext.jsx";
 import Collection from "./pages/Collection.jsx";
 import {ToastContainer} from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+//import 'react-toastify/dist/ReactToastify.css';
 import Product from "./pages/Product.jsx";
 import Cart from "./pages/Cart.jsx";
 import PlaceOrder from "./pages/PlaceOrder.jsx";
