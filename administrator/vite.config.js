@@ -9,5 +9,10 @@ export default defineConfig({
     rollupOptions: {
       external: ['react-toastify']
     }
-  }
+  },
+    resolve: {
+    alias: {
+      'react-router-dom': require.resolve('react-router-dom'),
+    },
+  },
 })
