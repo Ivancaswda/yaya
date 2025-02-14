@@ -7,7 +7,7 @@ export default defineConfig({
   port: {port: 5555},
   build: {
     rollupOptions: {
-      external: ['react-toastify', 'react-toastify/dist/ReactToastify.css']
+      external: ['react-toastify']
     }
   }
 })
